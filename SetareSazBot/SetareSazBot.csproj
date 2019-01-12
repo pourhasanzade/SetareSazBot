@@ -234,6 +234,10 @@
     <Compile Include="Migrations\201901091549172_init.Designer.cs">
       <DependentUpon>201901091549172_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901120819170_video_status.cs" />
+    <Compile Include="Migrations\201901120819170_video_status.Designer.cs">
+      <DependentUpon>201901120819170_video_status.cs</DependentUpon>
+    </Compile>
     <Compile Include="Service\UserInfoService.cs" />
     <Compile Include="Service\ApiService.cs" />
     <Compile Include="Service\BankService.cs" />
@@ -290,6 +294,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901091549172_init.resx">
       <DependentUpon>201901091549172_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901120819170_video_status.resx">
+      <DependentUpon>201901120819170_video_status.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
